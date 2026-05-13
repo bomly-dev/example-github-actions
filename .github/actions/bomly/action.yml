@@ -1,0 +1,6 @@
+name: 'Bomly Scan'
+description: 'Scan a project with the bomly agent'
+author: 'Bomly'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
