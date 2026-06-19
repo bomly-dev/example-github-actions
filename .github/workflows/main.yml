@@ -9,5 +9,3 @@ jobs:
     - uses: actions/checkout@v1
     - name: Scan
       uses: ./.github/actions/bomly
-      env:
-        SRCCLR_API_TOKEN: ${{ secrets.SRCCLR_API_TOKEN }}
