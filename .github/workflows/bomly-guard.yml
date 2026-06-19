@@ -21,6 +21,7 @@ jobs:
       - name: Guard dependency changes
         uses: bomly-dev/bomly-guard@v1
         with:
+          cli-token: ${{ github.token }}
           log-level: debug
           ecosystems: github-actions
           fail-on: high
